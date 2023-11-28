@@ -363,7 +363,7 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 3683107ddb2030745aba6564216e8a5f, type: 3}
   m_PrefabInstance: {fileID: 1449088468}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1595296606
+--- !u!114 &1595296608
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -372,14 +372,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 1595296604}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3128951fc44f2d045af4cc6e6b4e7182, type: 3}
+  m_Script: {fileID: 11500000, guid: 26bf3623b86accd48a90e5235d66354a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wheel: {fileID: 8558656720774293534, guid: 04376bd4eb0547c489daa8373e5f9fa9, type: 3}
-  displacement: {x: 0.1, y: 0, z: 0.1}
-  rotationAxis: 1
-  angleW: 100
-  rotationAxisW1: 0
-  rotationAxisW2: 0
-  rotationAxisW3: 0
-  rotationAxisW4: 0
+  wheelPrefab: {fileID: 8558656720774293534, guid: 04376bd4eb0547c489daa8373e5f9fa9, type: 3}
+  displacement: {x: 0, y: 0, z: 0}
+  rotationAxis: 0
+  wheelNum: 4
+  wheelOffset:
+  - {x: -0.84, y: 0.38, z: 1.27}
+  - {x: 0.84, y: 0.38, z: 1.27}
+  - {x: -0.84, y: 0.38, z: -1.27}
+  - {x: 0.84, y: 0.38, z: -1.27}
